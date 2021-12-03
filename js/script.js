@@ -23,10 +23,10 @@ let discountHTML = document.getElementById('discount')
 
 if (age < 18){
     outputHTML.innerHTML = `Il prezzo del biglietto è di: <b>${finalUnderAgedPrice}</b> €`;
-    discountHTML.innerHTML = 'Ha diritto allo sconto minorenni';
+    discountHTML.innerHTML = `<del>Prezzo originale: <b>${finalPrice} €</b></del><br>Ha diritto allo sconto minorenni`;
 } else if (age > 65){
     outputHTML.innerHTML = `Il prezzo del biglietto è di: <b>${finalOverAgedPrice}</b> €`;
-    discountHTML.innerHTML = 'Ha diritto allo sconto anziani';
+    discountHTML.innerHTML = `<del>Prezzo originale: <b>${finalPrice} €</b></del><br> Ha diritto allo sconto anziani`;
 } else{
     outputHTML.innerHTML = `Il prezzo del biglietto è di: <b>${finalPrice}</b> €`;
 }
