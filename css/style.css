@@ -1,0 +1,29 @@
+.container{
+    background-color: gray;
+    border-radius: 25px;
+    padding: 25px 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#km-number{
+    font-weight: bold;
+}
+
+.pay{
+    background-color: red;
+    padding: 10px 0px;
+    border-radius: 25px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#discount{
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
